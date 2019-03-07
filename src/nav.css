@@ -1,0 +1,22 @@
+.nav{
+    margin-top: -20px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+ul{
+    list-style: none;
+    display: flex;
+}
+
+li{
+    margin: 30px;
+}
+
+a{
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+a:hover{
+    border-bottom: 1px solid salmon;
+}

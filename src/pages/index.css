@@ -1,0 +1,43 @@
+.heading{
+    margin-top: -80px;
+    float: right;
+    text-align: center;
+    width: 20%;
+    background-color: salmon;
+    color: rgb(96, 96, 219);
+}
+
+.auth,
+.todolist__box{
+    text-align: center;
+    padding: 20px;
+}
+
+.authForm input,
+.todolist__box input{
+    margin-right: 10px;
+    outline: none;
+    height: 30px;
+    text-align: center;
+    border: none;
+    background-color: inherit;
+    border-bottom: 1px solid salmon;
+}
+
+.authForm button,
+.todolist__box button{
+    border: none;
+    height: 30px;
+    padding:0px 15px 3px 15px;
+    background-color: inherit;
+    color: rgb(96, 96, 219);
+}
+
+.authForm-button:hover,
+.todoForm-btn:hover{
+    outline: none;
+    border: none;
+    border-bottom: 1px solid salmon;
+    cursor: pointer;
+
+}
